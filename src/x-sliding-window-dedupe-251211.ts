@@ -1,3 +1,4 @@
+// last item in the array emits first - imagine as stream of queued events
 function dedupeSlidingWindow<T extends string | number>(
   items: T[],
   window: number
